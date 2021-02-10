@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Trouve le nombre</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <h1>Trouve le nombre</h1>
+
+    <p>nous avons choisi un nombre au hasard entre 1 et 100.</p>
+    <p>voyons si vous pouvez trouver ce nombre en moins de 10 coups.</p>
+
+    <div class="form">
+        <label for="guessField">Entre une reponse: </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Valider" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script src="../js/main.js">
+    </script>
+</body>
+
+</html>
